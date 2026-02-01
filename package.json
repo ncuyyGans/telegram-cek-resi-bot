@@ -1,0 +1,16 @@
+{
+  "name": "telegram-cek-resi-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot cek resi semua ekspedisi Indonesia",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  }
+}
